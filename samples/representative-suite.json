@@ -1,0 +1,120 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "Prefab・Scene・Canvas探索ビュー の正常入力を検証する",
+    "items": [
+      {
+        "id": "prefab-scene-canvas-explorer-happy",
+        "title": "Prefab・Scene・Canvas探索ビュー happy",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-happy",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha",
+        "previewNote": "Prefab・Scene・Canvas探索ビュー の確認観点"
+      }
+    ],
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する",
+    "items": [
+      {
+        "id": "prefab-scene-canvas-explorer-missing",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-missing",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha",
+        "previewNote": "Prefab・Scene・Canvas探索ビュー の確認観点"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "warning",
+    "purpose": "推奨項目不足を warning として検出する",
+    "items": [
+      {
+        "id": "prefab-scene-canvas-explorer-warning",
+        "title": "Prefab・Scene・Canvas探索ビュー warning",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-warning",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha"
+      }
+    ],
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須不足、警告を同一バッチで集計する",
+    "items": [
+      {
+        "id": "prefab-scene-canvas-explorer-happy",
+        "title": "Prefab・Scene・Canvas探索ビュー happy",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-happy",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha",
+        "previewNote": "Prefab・Scene・Canvas探索ビュー の確認観点"
+      },
+      {
+        "id": "prefab-scene-canvas-explorer-missing",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-missing",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha",
+        "previewNote": "Prefab・Scene・Canvas探索ビュー の確認観点"
+      },
+      {
+        "id": "prefab-scene-canvas-explorer-warning",
+        "title": "Prefab・Scene・Canvas探索ビュー warning",
+        "status": "ready",
+        "tags": [
+          "unityeditor"
+        ],
+        "assetGuid": "guid-warning",
+        "scenePath": "Assets/Scenes/Sample.unity",
+        "component": "Canvas",
+        "owner": "closed-alpha"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 1
+    }
+  }
+]
