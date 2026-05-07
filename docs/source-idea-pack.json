@@ -1,0 +1,66 @@
+{
+  "rank": 67,
+  "domain": "UnityEditor",
+  "ideaNo": 2,
+  "ideaName": "Prefab・Scene・Canvas探索ビュー",
+  "repository": "prefab-scene-canvas-explorer",
+  "publish": "GitHub Release / BOOTH",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/UnityEditor/created_idea_002_prefab-scene-canvas-explorer",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/UnityEditor/created_idea_002_prefab-scene-canvas-explorer/idea_002_prefab-scene-canvas-explorer.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "UnityEditor",
+    "no": 2,
+    "platform": "UnityEditor",
+    "field": "Unity制作支援",
+    "integration": "",
+    "idea": "Prefab・Scene・Canvas探索ビュー",
+    "overview": "Prefab、Scene内Object、UI Canvas階層、参照切れを横断検索する。 入力、確認、履歴保存、次アクションを同じ作業単位で扱えるようにする。",
+    "problem": "SceneやPrefabが増えると目的の参照やUI要素を探しにくい。",
+    "similar": "Unity Editor, Odin Inspector, Rider, Unity Asset Store Tools, Addressables, Memory Profiler",
+    "diff": "サムネイル、階層、検索条件を同じ画面で扱う。",
+    "parent": "Plugins",
+    "startPromptFile": "START_PROMPT.md",
+    "documents": [
+      "START_PROMPT.md",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md",
+      "metadata.json"
+    ],
+    "repositoryName": "prefab-scene-canvas-explorer",
+    "repositoryTitle": "prefab-scene-canvas-explorer",
+    "zipFile": "idea_002_prefab-scene-canvas-explorer.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}

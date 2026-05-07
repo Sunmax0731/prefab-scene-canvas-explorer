@@ -1,0 +1,21 @@
+{
+  "product": {
+    "repository": "prefab-scene-canvas-explorer",
+    "title": "Prefab・Scene・Canvas探索ビュー"
+  },
+  "items": [
+    {
+      "id": "prefab-scene-canvas-explorer-happy",
+      "title": "Prefab・Scene・Canvas探索ビュー happy",
+      "status": "ready",
+      "tags": [
+        "unityeditor"
+      ],
+      "assetGuid": "guid-happy",
+      "scenePath": "Assets/Scenes/Sample.unity",
+      "component": "Canvas",
+      "owner": "closed-alpha",
+      "previewNote": "Prefab・Scene・Canvas探索ビュー の確認観点"
+    }
+  ]
+}
