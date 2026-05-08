@@ -1,0 +1,10 @@
+{
+  "name": "com.sunmax0731.prefab-scene-canvas-explorer",
+  "displayName": "Prefab・Scene・Canvas探索ビュー",
+  "version": "0.1.0-alpha.1",
+  "unity": "2022.3",
+  "description": "prefab-scene-canvas-explorer closed alpha Unity editor package",
+  "author": {
+    "name": "Sunmax0731"
+  }
+}
