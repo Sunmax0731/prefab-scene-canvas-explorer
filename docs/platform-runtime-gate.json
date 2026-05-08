@@ -1,0 +1,11 @@
+{
+  "product": "prefab-scene-canvas-explorer",
+  "title": "Prefab・Scene・Canvas探索ビュー",
+  "domain": "UnityEditor",
+  "ideaNo": 2,
+  "platformType": "unity-editor-package",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
